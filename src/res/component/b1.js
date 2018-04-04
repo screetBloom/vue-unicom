@@ -9,7 +9,7 @@ Vue.component('cb1', {
     },
     data: function(){
         return {
-            text: 'component - cb1',
+            text: 'component - b1',
             msg: ''
         }
     }
