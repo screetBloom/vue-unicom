@@ -198,6 +198,8 @@
 
     // 发送容器 或者 获得 目标容器
     function unicomQuery(query, ...args) {
+        console.log(' >>>>>   ')
+        console.log(query,...args)
         let toKey = '',
             aim = '',
             isDefer = false
