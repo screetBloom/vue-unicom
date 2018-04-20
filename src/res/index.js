@@ -3,7 +3,10 @@ Vue.use(VueUnicom)
 
 var app = new Vue({
     el: '#app',
-    data: {
+    data: function(){
+        return {
+
+        }
     },
     methods: {
         
