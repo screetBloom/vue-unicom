@@ -25,7 +25,8 @@
     let vmMap = new Map()
 
     // 转化为一维数组
-    function toOneArray(data, arr = [], fn, repetition = {}) {
+    function toOneArray(data, arr =
+        [], fn, repetition = {}) {
         if (toString.call(data).toLowerCase() == '[object array]') {
             for (let i = 0; i < data.length; i += 1) {
                 toOneArray(data[i], arr, fn, repetition)
